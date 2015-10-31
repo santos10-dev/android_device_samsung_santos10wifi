@@ -1,0 +1,4 @@
+###### BINARIES ######
+
+# hwcomposer
+lib/hw/hwcomposer.santos10wifi.so:vendor/lib/hw/hwcomposer.clovertrail.so
