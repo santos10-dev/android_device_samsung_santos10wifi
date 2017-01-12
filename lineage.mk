@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
@@ -24,7 +24,7 @@ $(call inherit-product, device/samsung/santos10wifi/full_santos10wifi.mk)
 TARGET_SCREEN_WIDTH := 1280
 TARGET_SCREEN_HEIGHT := 480
 
-PRODUCT_NAME := cm_santos10wifi
+PRODUCT_NAME := lineage_santos10wifi
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-P5210
 
