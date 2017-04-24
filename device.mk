@@ -18,4 +18,4 @@ $(call inherit-product, device/samsung/santos10-common/device-common.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/santos10wifi/overlay
 
-$(call inherit-product, vendor/samsung/santos10wifi/device-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/santos10wifi/santos10wifi-vendor.mk)
